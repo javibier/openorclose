@@ -1,16 +1,20 @@
-document.getElementById ("openorClosed");
 
-var openorClosedJS = document.getElementById ("openorClosed");
-
-var time = new Date () .getHours 
+var time = new Date() .getHours();
 
 var message;
 
+
+var openorClosedJS = document.getElementById ("openorClosed");
+
+
+
 if (time < 11 || > time > 21)
 {
-	message = "Closed"
+	message = "Closed";
 }
 else
 {
-	message = "Open"
+	message = "Open";
 }
+
+openorClosedJS.innertext = message;
