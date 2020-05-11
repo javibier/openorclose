@@ -4,11 +4,11 @@ var time = new Date() .getHours();
 var message;
 
 
-var openOrClosedJS = document.getElementById ("openorClosed");
+var openOrClosedJS = document.getElementById ("openOrClosed");
 
 
 
-if (time &lt; 11 || > time &gt; > 21)
+if (time &lt; 11 || time &gt; 21)
 {
 	message = "Closed";
 }
